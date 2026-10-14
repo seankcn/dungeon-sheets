@@ -576,7 +576,7 @@ class BattleSmithSpells(_SpecialistSpells):
     _name = "Battle Smith"
     _spells = {
         3: [spells.Heroism, spells.Shield],
-        5: [spells.BrandingSmite, spells.WardingBond],
+        5: [spells.ShiningSmite, spells.WardingBond],
         9: [spells.AuraOfVitality, spells.ConjureBarrage],
         13: [spells.AuraOfPurity, spells.FireShield],
         17: [spells.BanishingSmite, spells.MassCureWounds],

@@ -673,7 +673,7 @@ class ControlAirAndWater(Feature):
     rest. Charisma is your spellcasting ability for these spells.
 
     """
-    _spells = {1: [spells.FogCloud,], 3: [spells.GustOfWind,], 5: [spells.WallOfWater,]}
+    _spells = {1: [spells.FogCloud,], 3: [spells.GustOfWind,], 5: [spells.WaterWalk,]}
     spells_known = []
     spells_prepared = []
 
@@ -808,7 +808,7 @@ class CallToTheWave(Feature):
     spells.
 
     """
-    _spells = {1: [spells.ShapeWater,], 3: [spells.CreateOrDestroyWater]}
+    _spells = {1: [spells.AcidSplash,], 3: [spells.CreateOrDestroyWater], 5: [spells.WaterWalk]}
     spells_known = []
     spells_prepared = []
 

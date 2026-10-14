@@ -1,5 +1,6 @@
 from dungeonsheets.spells.spells import Spell, create_spell, all_spells
 
+"""
 from dungeonsheets.spells.spells_a import *
 from dungeonsheets.spells.spells_b import *
 from dungeonsheets.spells.spells_c import *
@@ -26,6 +27,8 @@ from dungeonsheets.spells.spells_w import *
 from dungeonsheets.spells.spells_x import *
 from dungeonsheets.spells.spells_y import *
 from dungeonsheets.spells.spells_z import *
+"""
+from dungeonsheets.spells.spells_all import *
 
 from dungeonsheets.content_registry import default_content_registry
 
